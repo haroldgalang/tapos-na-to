@@ -1,42 +1,19 @@
-<script>
-import ParentComponent from "./components/ParentComponent.vue";
-export default {
-  name: "App",
-  components: {
-    ParentComponent,
-  },
-};
-</script>
-
 <template>
-  <ParentComponent />
+  <div>
+    <h1>Vue E-Commerce Store</h1>
+    <ProductList />
+    <Cart />
+  </div>
 </template>
 
-<style scoped>
-header {
-  line-height: 1.5;
-}
+<script>
+import ProductList from './components/ProductList.vue';
+import Cart from './components/Cart.vue';
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
+export default {
+  components: {
+    ProductList,
+    Cart
   }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-}
-</style>
+};
+</script>
