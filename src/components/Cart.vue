@@ -37,6 +37,7 @@ export default {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  color: #313131;
 }
 
 .cart-item-card {
