@@ -3,16 +3,16 @@ import { createStore } from 'vuex';
 export default createStore({
   state: {
     products: [
-      { id: 1, name: 'Product 1', price: 10 },
-      { id: 2, name: 'Product 2', price: 15 },
-      { id: 3, name: 'Product 3', price: 20 },
-      { id: 4, name: 'Product 4', price: 25 },
-      { id: 5, name: 'Product 5', price: 30 },
-      { id: 6, name: 'Product 6', price: 35 },
-      { id: 7, name: 'Product 7', price: 40 },
-      { id: 8, name: 'Product 8', price: 45 },
-      { id: 9, name: 'Product 9', price: 50 },
-      { id: 10, name: 'Product 10', price: 55 }
+      { id: 1, name: 'Washing Machine', price: 200 },
+      { id: 2, name: 'Refrigerator', price: 350 },
+      { id: 3, name: 'Microwave Oven', price: 120 },
+      { id: 4, name: 'Dishwasher', price: 300 },
+      { id: 5, name: 'Air Conditioner', price: 400 },
+      { id: 6, name: 'Vacuum Cleaner', price: 150 },
+      { id: 7, name: 'Electric Kettle', price: 40 },
+      { id: 8, name: 'Coffee Maker', price: 60 },
+      { id: 9, name: 'Toaster', price: 30 },
+      { id: 10, name: 'Blender', price: 80 }
     ],
     cart: []
   },
